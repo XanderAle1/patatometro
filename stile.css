@@ -1,0 +1,52 @@
+body {background-image: url("sfondo.png"); background-size: 15px; align-content: center; font-family:PatataFontThin; font-size: 15px; color:#34200f}
+
+h1 {background-image: linear-gradient(to left, indigo, #cc5aca, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family:PatataFont;
+  text-align:center}
+  
+h2 {color:#34200f; text-align:center; font-family:PatataFontThin;}
+
+@font-face {
+font-family: "PatataFont";
+src: url(CheapPotatoesBlack.ttf);
+font-style: normal;
+}
+
+@font-face {
+font-family: "PatataFontThin";
+src: url(CheapPotatoesBlackThin.ttf);
+font-style: normal;
+}
+
+#PatataBar {background-image: url("0.png"); background-repeat: no-repeat; background-size:100%; height:100px; width: 90%; margin: 5% auto;}
+
+.container {margin: 0 auto; text-align: center;}
+#Ddomanda {font-size: 15px; }
+
+#Cdomanda {margin: 0 auto 2% auto; font-family:PatataFontThin;}
+
+#bottone {border-radius: 8px; padding: 5px 15px 7px 15px; font-size: 15px; font-family:PatataFontThin; margin-left: 15px; height:60px; background-image: linear-gradient(to left, #dc3d8a, #cc5aca); border: 0px; box-shadow:
+  0 1.1px 1.1px -21px rgba(0, 0, 0, 0.093),
+  0 2.7px 2.5px -21px rgba(0, 0, 0, 0.133),
+  0 5px 4.8px -21px rgba(0, 0, 0, 0.165),
+  0 8.9px 8.5px -21px rgba(0, 0, 0, 0.197),
+  0 16.7px 15.9px -21px rgba(0, 0, 0, 0.237),
+  0 40px 38px -21px rgba(0, 0, 0, 0.33)
+; color: #fff; }
+#bottone:hover {transition: background-color 2s, background-image 2s, color 0.5s, box-shadow 0.5s; background-color: #f9f9fb; background-image: none; color:#34200f; cursor:pointer; box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset}
+#bottone:active {box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset; color:#b5b5b5; box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset; transition: background-color 0s, background-image 0s, color 0s, box-shadow 0s;}
+
+input, text {box-shadow: 0 2px 6px rgba(58, 57, 68, 0.2);
+    border: 1px solid transparent;
+    border-radius: 8px;
+    color: #585165;
+    font-weight: 500;
+    font-size: 15px;
+; padding: 5px 5px 5px 20px; height:51px; width: 50%; }
+
+footer {background-color:#34200f; height: 40px; position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%; color: #fff; font-family: helvetica; padding: 25px 15px 5px 25px;}
