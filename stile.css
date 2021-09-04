@@ -50,3 +50,6 @@ footer {background-color:#34200f; height: 40px; position: fixed;
   left: 0;
   bottom: 0;
   width: 100%; color: #fff; font-family: helvetica; padding: 25px 15px 5px 25px;}
+
+@media (orientation: portrait) {* {display:none}
+  .allertaSchermo {display: block}}
